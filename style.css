@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+   }
+
+
+body{
+   width: 100%;
+   color: rgb(83, 7, 121);
+   text-align: center;
+   min-height: 100vh;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media(max-width: 1000px){}
+
+
+.container{
+      width:100;
+      overflow-y: scroll;
+      height: 90vh;
+      padding: 15px 2%;
+      box-shadow: 0 0 5px rgb(35, 1, 51);
+    
+  }
+.container::-webkit-scrollbar{
+      width: 14px;
+      border: 1px solid rgb(76, 2, 110);
+  }
+.container::-webkit-scrollbar-thumb{
+      background-color: rgb(76, 2, 110);
+      border-radius: 6px;
+  }
+.hr_dados1{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 5px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_dados1::after {
+   display: inline-block;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   padding: 0 0.3em;
+   background: white;
+ }
+.hr_01{
+   border-top: medium dashed rgb(179, 9, 236)
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_01::after{
+content: 'Objetivo';
+display: inline;
+position: relative;
+top: -0.7em;
+font-size: 1.4em;
+padding: 0 0.3em;
+background-color: #fff;
+ }
+.hr_02{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+   }
+.hr_02::after{
+   content: 'Resumo';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   padding: 0 0.3em;
+   background-color: #fff;
+   }
+.hr_03{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+  }
+ .hr_03::after{
+  content: 'Formação';
+  display: inline;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  padding: 0 0.3em;
+  background-color: #fff;
+ }
+.hr_04{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+  }
+.hr_04::after{
+  content: 'Experiência';
+  display: inline;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  padding: 0 0.3em;
+  background-color: #fff;
+ }
+.hr_05{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_05::after{
+ content: 'Ferramentas';
+ display: inline;
+ position: relative;
+ top: -0.7em;
+ font-size: 1.4em;
+ padding: 0 0.3em;
+ background-color: #fff;
+ }
+.hr_06{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_06::after{
+  content: 'Idiomas';
+  display: inline;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  padding: 0 0.3em;
+  background-color: #fff;
+ }
+ .hr_07{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_07::after{
+   content: 'Linguagens';
+   display: inline;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   padding: 0 0.3em;
+   background-color: #fff;
+   }
+.hr_08{
+   border-top: medium dashed rgb(179, 9, 236);
+   border-bottom: medium dashed rgb(179, 9, 236);
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
